@@ -6,6 +6,7 @@ package aa;
 public class MainClass {
     public static  void main(String [] aa){
         System.out.println("---------------");
+        System.out.println("-------222222--------");
 
     }
 }
