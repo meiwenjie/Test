@@ -1,0 +1,11 @@
+description = '廊坊银行SDK'
+dependencies { 
+	compile project(':common')
+	compile "com.fasterxml.jackson.core:jackson-databind:2.8.7"
+	compile "org.hibernate:hibernate-validator:5.3.4.Final"
+	compile "org.apache.httpcomponents:httpclient:4.5.3"
+	testCompile "org.glassfish.web:javax.el:2.2.4"
+	compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.6.1")
+	compile ("commons-codec:commons-codec:1.10")
+	compile ("commons-io:commons-io:2.4")
+}
